@@ -1,0 +1,26 @@
+{
+  "name": "try-to-fly-the-game",
+  "version": "1.0.0",
+  "description": "Project developed for the spring hackathon of Ufa University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --mode production",
+    "start": "npx webpack --mode development"
+  },
+  "author": "Ilya Karpov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.29.0",
+    "json-server": "^0.17.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
