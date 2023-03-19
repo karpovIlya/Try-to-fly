@@ -4183,7 +4183,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 window.addEventListener("DOMContentLoaded", function () {
-  new _modules_game_js__WEBPACK_IMPORTED_MODULE_0__["default"]('.level__input-enter', '.level__hero', 'justify-content: center;', 'align-items: center;');
+  if (document.querySelector('.level').getAttribute('id') === 'easy') {
+    new _modules_game_js__WEBPACK_IMPORTED_MODULE_0__["default"]('.level__input-enter', '.level__hero', 'justify-content: center;', 'align-items: center;');
+  } else {
+    new _modules_game_js__WEBPACK_IMPORTED_MODULE_0__["default"]('.level__input-enter', '.level__hero', 'justify-content: space-between;', 'align-items: center;');
+  }
 });
 })();
 

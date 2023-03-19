@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Try to fly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.min.css">
+</head>
+<body>
+  <section class="level level_hard" id="hard">
+    <div class="level__info">
+      <h2 class="level__info-title">Try To Fly</h2>
+
+      <div class="level__info-text">
+        Ты решил испытать удачу еще раз, 
+        но в этот раз за тобой увязались твои друзья пингвины.
+        Ественно у вас не получилось взлететь. Помоги выбраться пингвинам с помощью технолигии
+        <a href="https://tproger.ru/translations/how-css-flexbox-works/" class="level__link">flexbox</a>.
+      </div>
+
+      <div class="level__info-text">
+        <span class="level__accent">Подсказка:</span> Чтобы вернуться на остров следует 
+        использовать свойства <a href="https://tproger.ru/articles/how-css-flexbox-works/#card-chapter-3" class="level__link">justify-content</a> и
+        <a href="https://tproger.ru/articles/how-css-flexbox-works/#card-chapter-4" class="level__link">align-items</a>.
+        И не забывай про точку с запятой
+      </div>
+    </div>
+
+    <div class="level__field">
+      <div class="level__aim">
+        <img src="../icons/ice.svg" alt="ice" class="level__aim-icon">
+        <img src="../icons/ice.svg" alt="ice" class="level__aim-icon">
+        <img src="../icons/ice.svg" alt="ice" class="level__aim-icon">
+      </div>
+
+      <div class="level__hero">
+        <img src="../icons/peng.svg" alt="peng" class="level__hero-icon">
+        <img src="../icons/peng.svg" alt="peng" class="level__hero-icon">
+        <img src="../icons/peng.svg" alt="peng" class="level__hero-icon">
+      </div>
+    </div>
+
+    <div class="level__input">
+      <code class="level__input-code">#sea {</code><br>
+      <code class="level__input-code">&nbsp &nbsp display: flex;</code><br>
+      <input type="text" class="level__input-enter input">
+      <input type="text" class="level__input-enter input">
+      <code class="level__input-code">}</code><br>
+    </div>
+
+    <a href="../index.html" class="level__button button">Выбор уровня</a>
+  </section>
+
+  <script src="../js/bundle.js"></script>
+</body>
+</html>
